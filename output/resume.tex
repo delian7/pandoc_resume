@@ -1,0 +1,296 @@
+% Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+% Copyright 2014 Mark Szepieniec <http://github.com/mszep>
+% 
+% ConText style for making a resume with pandoc. Inspired by moderncv.
+% 
+% This CSS document is delivered to you under the CC BY-SA 3.0 License.
+% https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+
+\startmode[*mkii]
+  \enableregime[utf-8]  
+  \setupcolors[state=start]
+\stopmode
+
+\setupcolor[hex]
+\definecolor[titlegrey][h=757575]
+\definecolor[sectioncolor][h=397249]
+\definecolor[rulecolor][h=9cb770]
+
+% Enable hyperlinks
+\setupinteraction[state=start, color=sectioncolor]
+
+\setuppapersize [A4][A4]
+\setuplayout    [width=middle, height=middle,
+                 backspace=20mm, cutspace=0mm,
+                 topspace=10mm, bottomspace=20mm,
+                 header=0mm, footer=0mm]
+
+%\setuppagenumbering[location={footer,center}]
+
+\setupbodyfont[11pt, helvetica]
+
+\setupwhitespace[medium]
+
+\setupblackrules[width=31mm, color=rulecolor]
+
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfd\bf, color=titlegrey, align=middle]
+\setuphead[subsection]   [style=\tfb\bf, color=sectioncolor, align=right,
+                          before={\leavevmode\blackrule\hspace}]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
+
+%\setupdescriptions[width=10mm]
+
+\definedescription
+  [description]
+  [headstyle=bold, style=normal,
+   location=hanging, width=18mm, distance=14mm, margin=0cm]
+
+\setupitemize[autointro, packed]    % prevent orphan list intro
+\setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
+
+\setuptables[textwidth=max, HL=none]
+\setupxtable[frame=off,option={stretch,width}]
+
+\setupthinrules[width=15em] % width of horizontal rules
+
+\setupdelimitedtext
+  [blockquote]
+  [before={\setupalign[middle]},
+   indentnext=no,
+  ]
+
+
+\starttext
+
+\section[title={Delian Petrov},reference={delian-petrov}]
+
+\startblockquote
+\useURL[url1][https://linkedin.com/in/delianpetrov][][linkedin.com/in/delianpetrov]\from[url1]
+• 949.431.6738 •
+\useURL[url2][mailto:mail@delianpetrov.com][][mail@delianpetrov.com]\from[url2]
+\stopblockquote
+
+\thinrule
+
+\subsection[title={Ruby on Rails Full-Stack & DevOps
+Engineering},reference={ruby-on-rails-full-stack-devops-engineering}]
+
+\startblockquote
+{\em Proven achievement designing innovative solutions and capabilities}
+\stopblockquote
+
+\thinrule
+
+Technically sophisticated and highly motivated professional with solid
+history of success in web development and application architecture.
+Exhibits earnest passion for evaluating new technologies and writing
+concise, polished code. Consistently delivers development projects ahead
+of schedule and under budget. Thrives in rapidly-changing tech
+environments offering compelling new challenges; able to direct multiple
+tasks effectively and readily master innovative software and tools.
+Recognized for sound judgment, analytical mindset, and solid technical
+acumen. Resourceful, enthusiastic, and proactive.
+
+\startblockquote
+{\em Full-Stack Engineering / Project Management / Team Collaboration /
+Data Analysis}
+\stopblockquote
+
+\startblockquote
+{\em Quality Assurance / Communications / Troubleshooting & Issue
+Resolution / Solution Development}
+\stopblockquote
+
+\thinrule
+
+\subsection[title={TECHNICAL
+PROFICIENCIES},reference={technical-proficiencies}]
+
+\startblockquote
+Ruby on Rails, HTML5, CSS/SCSS, JavaScript, Bootstrap, jQuery, Angular,
+Ionic 3, PostgreSQL,
+\stopblockquote
+
+\startblockquote
+AWS S3, AWS Lambda, AWS EC2, Google Cloud, Firebase, Heroku
+\stopblockquote
+
+\thinrule
+
+\subsection[title={PROFESSIONAL
+EXPERIENCE},reference={professional-experience}]
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell {\bf Co-Founder, Lead Engineer} (2016-2018) \stopxcell
+\startxcell[align=left] SEASTATUS MARINE WEATHER, Newport Beach,
+CA \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+Established company/built Ruby on Rails app providing personalized
+marine weather data---from proof of concept to minimum viable product
+(MVP)---in just two months. Employed Regex to parse weather data based
+on user time zones and locations; aggregated raw data from diverse
+datasets (NOAA, Darksky, PlanetOS) to populate text and charts.
+Engineered iOS and Android apps with Ionic Framework 3
+(Angular/Typescript) to manage one codebase.
+
+\startitemize[packed]
+\item
+  Differentiated client and server logic by developing application on
+  Ruby on Rails hosted by Google Cloud
+\item
+  Maintained cache responses for 1 hour by migrating AWS CloudFront
+  (CDN) platform
+\item
+  Architected subscription model to validate against Apple and Google
+  customer receipt object
+\item
+  Amplified user base; captured 2.9K monthly active users
+\item
+  Designed client (app) to subscribe to valueChanges observable on
+  Firestore database (enabling lazy-loaded data)
+\item
+  Utilized firebase NodeJS cloud function and CRON jobs to schedule push
+  notification report based on user-selected time zone
+\item
+  Secured \$25K Xprize Big Ocean Button Challenge for 2 categories:
+  Public Safety and Integrating Multiple Datasets
+\item
+  {\em Note: Recently sold app to another company}
+\stopitemize
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell {\bf Software Engineer} (2016-2018) \stopxcell
+\startxcell[align=left] VISAGE SOFTWARE INC., Irvine, CA \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+Excelled in Agile environment. Forged effective collaboration and
+productive relationship with development team; actively contributed to
+daily scrum meetings, sprint planning, weekly estimations, code review,
+and weekly pair programming.
+
+\startitemize[packed]
+\item
+  Developed and debugged SASS web app driven by Ruby on Rails (back-end)
+  and KnockoutJs (front-end)
+\item
+  Architected fast architecture server-side export on Selenium framework
+  and Saucelabs
+\item
+  Championed enterprise solution to map and compile user assets on a
+  Google Sheet; LinkedIn (US, UK, India) all currently use solution to
+  generate state and national workforce reports
+\item
+  Evaluated in-house Selenium grid with combination of AWS Docker
+  Containers and AWS Lambda storing assets on S3 Bucket
+\item
+  Detected duplicate multimedia files by creating acceptance tests using
+  perceptual hash library
+\item
+  Designed persistent download tracker utilizing pub sub and browser
+  session storage to show file download progress while user navigates
+  from page to page
+\item
+  Optimized customer workflow by automating graphic asset delivery to
+  third-party services (Zapier); developed API to authenticate (using
+  BasicAuth strategy over SSL) and save response to create web-hook
+  object
+\item
+  Employed FabricJS to create custom SVG shape/polygon editor
+\item
+  Devised internal GitHub wiki for team knowledge sharing and code
+  integrity; employed succinct code development
+\stopitemize
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell {\bf Ruby on Rails Developer} (2015) \stopxcell
+\startxcell[align=left] APPLICANTLAB, Newport Beach, CA \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+\startitemize[packed]
+\item
+  Led implementation of customized internal admin interface using
+  ActiveAdmin Gem; employed Braintree SDK to implement payment gateway
+\item
+  Integrated Google Oauth2 via Devise OmniAuth Gem
+\item
+  Represented startup company in check-in meetings with venture
+  capitalists and investors
+\stopitemize
+
+\startplacetable[location=none]
+\startxtable
+\startxtablebody[body]
+\stopxtablebody
+\startxtablefoot[foot]
+\startxrow
+\startxcell {\bf Lead Technician} (2012-2014) \stopxcell
+\startxcell[align=left] ANTTECH REPAIR CENTER, Irvine, CA \stopxcell
+\stopxrow
+\stopxtablefoot
+\stopxtable
+\stopplacetable
+
+\startitemize[packed]
+\item
+  Oversaw 30 machines and reported to five managers
+\item
+  Directed dynamic technical projects for university bookstore;
+  developed roadmap for other student technicians
+\item
+  Maintained in-house computer integrity (specified by strict campus
+  firewall regulations); maintained and provided backup for Linux and
+  OSX-based server systems through CRON shell scripts
+\item
+  Earned certification as Apple Macintosh Technician of Mac, Windows,
+  and Linux-based PCs
+\stopitemize
+
+\thinrule
+
+\subsection[title={EDUCATION AND
+TRAINING},reference={education-and-training}]
+
+\startblockquote
+{\bf Bachelor of Science in Informatics, Management minor, 2015}
+
+University of California, Irvine, CA
+\stopblockquote
+
+\startblockquote
+{\bf Technical Certifications}
+
+Apple Certified Macintosh Technician (ACMT)
+\stopblockquote
+
+\stoptext
