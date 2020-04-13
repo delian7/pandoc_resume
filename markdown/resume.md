@@ -1,49 +1,109 @@
-Johnny Coder
-============
+Delian Petrov
+=======
+> [linkedin.com/in/delianpetrov](https://linkedin.com/in/delianpetrov) • 949.431.6738 • <mail@delianpetrov.com>
 
 ----
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
-
-----
-
-Education
+Ruby on Rails Full-Stack & DevOps Engineering
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+> _Proven achievement designing innovative solutions and capabilities_
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+---------
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+Technically sophisticated and highly motivated professional with solid history of success in web development and application architecture. Exhibits earnest passion for evaluating new technologies and writing concise, polished code. Consistently delivers development projects ahead of schedule and under budget. Thrives in rapidly-changing tech environments offering compelling new challenges; able to direct multiple tasks effectively and readily master innovative software and tools. Recognized for sound judgment, analytical mindset, and solid technical acumen. Resourceful, enthusiastic, and proactive.
 
-    *Minor: Awesomeology*
+> _Full-Stack Engineering / Project Management / Team Collaboration / Data Analysis_
 
-Experience
+> _Quality Assurance / Communications / Troubleshooting & Issue Resolution / Solution Development_
+
+----
+
+TECHNICAL PROFICIENCIES
+----------
+> Ruby on Rails, HTML5, CSS/SCSS, JavaScript, Bootstrap, jQuery, Angular, Ionic 3, PostgreSQL,
+
+> AWS S3, AWS Lambda, AWS EC2, Google Cloud, Firebase, Heroku
+
+----
+
+PROFESSIONAL EXPERIENCE
 ----------
 
-**Your Most Recent Work Experience:**
+-------------------                          ----------------------------
+__Co-Founder, Lead Engineer__ (2016-2018)           SEASTATUS MARINE WEATHER, Newport Beach, CA
+-------------------                          ----------------------------
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Established company/built Ruby on Rails app
+providing personalized marine weather data—from
+proof of concept to minimum viable product (MVP)—in just
+two months. Employed Regex to parse weather data based on user
+time zones and locations; aggregated raw data from diverse datasets
+(NOAA, Darksky, PlanetOS) to populate text and charts.
+Engineered iOS and Android apps with Ionic Framework 3
+(Angular/Typescript) to manage one codebase.
 
-* First item
+* Differentiated client and server logic by developing application on Ruby on Rails hosted by Google Cloud
+* Maintained cache responses for 1 hour by migrating AWS CloudFront (CDN) platform
+* Architected subscription model to validate against Apple and Google customer receipt object
+* Amplified user base; captured 2.9K monthly active users
+* Designed client (app) to subscribe to valueChanges observable on Firestore database (enabling lazy-loaded data)
+* Utilized firebase NodeJS cloud function and CRON jobs to schedule push notification report based on user-selected time zone
+* Secured $25K Xprize Big Ocean Button Challenge for 2 categories: Public Safety and Integrating Multiple Datasets
+* _Note: Recently sold app to another company_
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+-------------------                   ----------------------------
+__Software Engineer__ (2016-2018)           VISAGE SOFTWARE INC., Irvine, CA
+-------------------                   ----------------------------
 
-**That Other Job You Had**
+Excelled in Agile environment. Forged effective collaboration and productive
+relationship with development team; actively contributed to daily scrum
+meetings, sprint planning, weekly estimations, code review, and weekly
+pair programming.
 
-Also with a short description.
+* Developed and debugged SASS web app driven by Ruby on Rails (back-end) and KnockoutJs (front-end)
+* Architected fast architecture server-side export on Selenium framework and Saucelabs
+* Championed enterprise solution to map and compile user assets on a Google Sheet; LinkedIn (US, UK, India) all currently use solution to generate state and national workforce reports
+* Evaluated in-house Selenium grid with combination of AWS Docker Containers and AWS Lambda storing assets on S3 Bucket
+* Detected duplicate multimedia files by creating acceptance tests using perceptual hash library
+* Designed persistent download tracker utilizing pub sub and browser session storage to show file download progress while user navigates from page to page
+* Optimized customer workflow by automating graphic asset delivery to third-party services (Zapier); developed API to authenticate (using BasicAuth strategy over SSL) and save response to create web-hook object
+* Employed FabricJS to create custom SVG shape/polygon editor
+* Devised internal GitHub wiki for team knowledge sharing and code integrity; employed succinct code development
 
-Technical Experience
+-------------------                   ----------------------------
+__Ruby on Rails Developer__ (2015)           APPLICANTLAB, Newport Beach, CA
+-------------------                   ----------------------------
+
+* Led implementation of customized internal admin interface using ActiveAdmin Gem; employed Braintree SDK to implement payment gateway
+* Integrated Google Oauth2 via Devise OmniAuth Gem
+* Represented startup company in check-in meetings with venture capitalists and investors
+
+-------------------                   ----------------------------
+__Lead Technician__ (2012-2014)              ANTTECH REPAIR CENTER, Irvine, CA
+-------------------                   ----------------------------
+
+* Oversaw 30 machines and reported to five managers
+* Directed dynamic technical projects for university bookstore; developed roadmap for other student technicians
+* Maintained in-house computer integrity (specified by strict campus firewall regulations); maintained and provided backup for Linux and OSX-based server systems through CRON shell scripts
+* Earned certification as Apple Macintosh Technician of Mac, Windows, and Linux-based PCs
+
+----
+
+EDUCATION AND TRAINING
 --------------------
+
+> **Bachelor of Science in Informatics, Management minor, 2015**
+>
+> University of California, Irvine, CA
+
+> **Technical Certifications**
+>
+> Apple Certified Macintosh Technician (ACMT)
+
+
+<!-- -------
+
 
 My Cool Side Project
 :   For items which don't have a clear time ordering, a definition
@@ -61,6 +121,8 @@ Open Source
     your idea...
 
 Programming Languages
+-------
+
 :   **first-lang:** Here, we have an itemization, where we only want
     to add descriptions to the first few items, but still want to
     mention some others together at the end. A format that works well
@@ -72,7 +134,7 @@ Programming Languages
 :   **second-lang:** Description of your experience with second-lang,
     perhaps again including a [link] [ref], this time placing the url
     reference elsewhere in the document to reduce clutter (see source
-    file). 
+    file).
 
 :   **obscure-but-impressive-lang:** We both know this one's pushing
     it.
@@ -92,9 +154,5 @@ Extra Section, Call it Whatever You Want
 
 * Random tidbit
 
-* Other sort of impressive-sounding thing you did
+* Other sort of impressive-sounding thing you did -->
 
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
